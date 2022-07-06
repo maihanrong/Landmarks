@@ -1,5 +1,7 @@
-# Swift UI的总结
+# Landmark预览
+![iPhone 12 Pro_1657098451162](https://user-images.githubusercontent.com/16502006/177557046-6e8c0cd0-05ef-4fbf-a75e-2a90bbac2f07.png)![iPhone 12 Pro_1657098420285](https://user-images.githubusercontent.com/16502006/177557160-61233959-8557-4994-8bbc-b8b2ecb4bec5.png)![iPhone 12 Pro_1657098463546](https://user-images.githubusercontent.com/16502006/177557179-1b464063-792b-4e4a-a7d0-ee4acfde7a1c.png)
 
+# Swift UI的总结
 ## some View
 SwiftUI里View是一个协议，定义了一个关联类型和body变量，几乎所有的控件都遵守了这个View的协议，由于协议里有关联类型或者Self，所以View不能直接当作函数的返回参数使用，为此要加上some的关键字来说明函数返回的是不透明类型。
 
